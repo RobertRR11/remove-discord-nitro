@@ -1,0 +1,27 @@
+/* Boost banner when creating channel invites */
+.inviteBannerUpsell-1t_LYM {
+    display: none;
+}
+
+/* Boost label in member list */
+.nameAndDecorators-3ERwy2 div[tabindex="-1"] {
+    display: none;
+}
+
+/* Boost badge on the left of guild names */
+.guildIconContainer-3QvE6w:has(.iconBackgroundTierOne-1S68CI),
+.guildIconContainer-3QvE6w:has(.iconBackgroundTierTwo-2XoNXD),
+.guildIconContainer-3QvE6w:has(.iconBackgroundTierThree-2hfNBO) {
+    display: none;
+}
+
+/* Boost button when clicking on guild name */
+#guild-header-popout > div > div:first-child,
+#guild-header-popout > div > div:nth-child(2) {
+    display: none;
+}
+
+/* Boost progress on guild channel list */
+.sidebar-1tnWFu .container-2giAcK {
+    display: none;
+}
