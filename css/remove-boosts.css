@@ -1,27 +1,30 @@
-/* Boost banner when creating channel invites */
-.inviteBannerUpsell-1t_LYM {
+/*
+    Boost banner when creating channel invites
+    Looks like they removed it, but I'll keep this here just in case
+*/
+div[class*="inviteBannerUpsell-"] {
     display: none;
 }
 
 /* Boost label in member list */
-.nameAndDecorators-3ERwy2 div[tabindex="-1"] {
+div[class*="nameAndDecorators-"] > div[tabindex="-1"] {
     display: none;
 }
 
 /* Boost badge on the left of guild names */
-.guildIconContainer-3QvE6w:has(.iconBackgroundTierOne-1S68CI),
-.guildIconContainer-3QvE6w:has(.iconBackgroundTierTwo-2XoNXD),
-.guildIconContainer-3QvE6w:has(.iconBackgroundTierThree-2hfNBO) {
+div[class*="guildIconContainer-"]:has(div[class*="iconBackgroundTierOne-"]),
+div[class*="guildIconContainer-"]:has(div[class*="iconBackgroundTierTwo-"]),
+div[class*="guildIconContainer-"]:has(div[class*="iconBackgroundTierThree-"]) {
     display: none;
 }
 
 /* Boost button when clicking on guild name */
-#guild-header-popout > div > div:first-child,
-#guild-header-popout > div > div:nth-child(2) {
+#guild-header-popout #guild-header-popout-premium-subscribe,
+#guild-header-popout > div > div[class*="separator-"]:nth-child(2) {
     display: none;
 }
 
-/* Boost progress on guild channel list */
-.sidebar-1tnWFu .container-2giAcK {
+/* Boost progress on top of guild channel list */
+div[class*="sidebar-"] div[class*="scroller-"] div[class*="container-"] {
     display: none;
 }
