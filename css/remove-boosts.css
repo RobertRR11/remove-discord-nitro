@@ -28,3 +28,8 @@ div[class*="guildIconContainer-"]:has(div[class*="iconBackgroundTierThree-"]) {
 div[class*="sidebar-"] div[class*="scroller-"] div[class*="container-"] {
     display: none;
 }
+
+/* Boost button when clicking on role icons */
+div[class*="popoutContainer-"] > button:has(svg[class*="boosterBadge-"]) {
+    display: none;
+}
