@@ -11,11 +11,9 @@ div[class*="nameAndDecorators-"] > div[tabindex="-1"] {
     display: none;
 }
 
-/* Boost badge on the left of guild names */
-div[class*="guildIconContainer-"]:has(div[class*="iconBackgroundTierOne-"]),
-div[class*="guildIconContainer-"]:has(div[class*="iconBackgroundTierTwo-"]),
-div[class*="guildIconContainer-"]:has(div[class*="iconBackgroundTierThree-"]) {
-    display: none;
+/* Boost badge on the left of guild names and when hovering on guild icons */
+div[class*="guildIconV2Container-"], div[class*="flowerStarContainer-"] {
+    display: none
 }
 
 /* Boost button when clicking on guild name */
