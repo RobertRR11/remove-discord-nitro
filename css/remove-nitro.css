@@ -104,3 +104,8 @@ div#appearance-tab div[class*="premiumFeatureBorder-"] {
 div[class*="newBackgroundTooltipContainer-"] {
     display: none;
 }
+
+/* Nitro icon on the top right quality badge on streams */
+svg[class*="premiumStreamIcon-"] {
+    display: none;
+}
