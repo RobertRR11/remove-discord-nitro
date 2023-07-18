@@ -50,11 +50,6 @@ div[class*="userProfileInner-"] div[class*="premiumIconWrapper-"] {
     display: none;
 }
 
-/* Nitro badges on user profiles */
-a[class*="anchor-"][href="https://discord.com/settings/premium"] {
-    display: none;
-}
-
 /* Nitro banner when selecting quality for screen sharing */
 div[class*="qualitySettingsContainer-"] div[class*="upsellBanner-"] {
     display: none;
