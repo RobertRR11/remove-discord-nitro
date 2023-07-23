@@ -31,3 +31,8 @@ div[class*="sidebar-"] div[class*="scroller-"] div[class*="container-"] {
 div[class*="popoutContainer-"] > button:has(svg[class*="boosterBadge-"]) {
     display: none;
 }
+
+/* Booster icon in stage channels */
+div[class*="participants-"] svg[class*="boost-"] {
+    display: none;
+}
