@@ -28,10 +28,10 @@ div[class*="channelTextArea-"] div[class*="buttons-"] > button {
 }
 
 /* Nitro features in server profile customization */
-#profile-customization-tab:has(> div[class*="defaultColor-"]) div[class*="sectionsContainer-"] > div:nth-child(2) {
+#profile-customization-tab div[class*="upsellOverlayContainer-"] {
     display: none;
 }
-#profile-customization-tab:has(> div[class*="defaultColor-"]) div[class*="sectionsContainer-"] > div:first-child {
+#profile-customization-tab:has(> div[class*="defaultColor-"]) div[class*="sectionsContainer-"] > div:nth-child(2) {
     border-bottom: none;
 }
 
