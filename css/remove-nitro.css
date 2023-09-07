@@ -109,3 +109,8 @@ div[class*="newBackgroundTooltipContainer-"] {
 svg[class*="premiumStreamIcon-"] {
     display: none;
 }
+
+/* Nitro upsell in soundboard */
+div[class*="picker-"] div[class*="upsellOuter-"] {
+    display: none;
+}
