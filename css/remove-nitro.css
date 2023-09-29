@@ -114,3 +114,8 @@ svg[class*="premiumStreamIcon-"] {
 div[class*="picker-"] div[class*="upsellOuter-"] {
     display: none;
 }
+
+/* Avatar decorations upsell in profile customization */
+div[class*="premiumFeatureBannerBackground-"] {
+    display: none;
+}
