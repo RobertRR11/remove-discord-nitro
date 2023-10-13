@@ -119,3 +119,13 @@ div[class*="picker-"] div[class*="upsellOuter-"] {
 div[class*="premiumFeatureBannerBackground-"] {
     display: none;
 }
+
+/* Nitro upsell on users with profile animations */
+div[class*="userPopoutInner-"] div[class*="containerWrapper-"] {
+    display: none;
+}
+
+/* Nitro upsell for profile animations in profile customization */
+div[class*="customizationSection-"]:has(div[class*="premiumFeatureBorder-"]) {
+    display: none
+}
