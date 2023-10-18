@@ -129,3 +129,8 @@ div[class*="userPopoutInner-"] div[class*="containerWrapper-"] {
 div[class*="customizationSection-"]:has(div[class*="premiumFeatureBorder-"]) {
     display: none
 }
+
+/* App icon selection in settings */
+div[class*="selectionGroup-"]:has(div[class*="appIconSelectionContainer-"]) {
+    display: none
+}
