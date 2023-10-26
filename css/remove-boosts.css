@@ -2,37 +2,37 @@
     Boost banner when creating channel invites
     Looks like they removed it, but I'll keep this here just in case
 */
-div[class*="inviteBannerUpsell-"] {
+div[class*="inviteBannerUpsell_"] {
     display: none;
 }
 
 /* Boost label in member list */
-div[class*="nameAndDecorators-"] > div[tabindex="-1"] {
+div[class*="nameAndDecorators_"] > div[tabindex="-1"] {
     display: none;
 }
 
 /* Boost badge on the left of guild names and when hovering on guild icons */
-div[class*="guildIconV2Container-"], div[class*="flowerStarContainer-"] {
+div[class*="guildIconV2Container_"], div[class*="flowerStarContainer_"] {
     display: none
 }
 
 /* Boost button when clicking on guild name */
 #guild-header-popout #guild-header-popout-premium-subscribe,
-#guild-header-popout > div > div[class*="separator-"]:nth-child(2) {
+#guild-header-popout > div > div[class*="separator_"]:nth-child(2) {
     display: none;
 }
 
 /* Boost progress on top of guild channel list */
-div[class*="sidebar-"] div[class*="scroller-"] div[class*="container-"] {
+div[class*="sidebar_"] div[class*="scroller_"] div[class*="container_"] {
     display: none;
 }
 
 /* Boost button when clicking on role icons */
-div[class*="popoutContainer-"] > button:has(svg[class*="boosterBadge-"]) {
+div[class*="popoutContainer_"] > button:has(svg[class*="boosterBadge_"]) {
     display: none;
 }
 
 /* Booster icon in stage channels */
-div[class*="participants-"] svg[class*="boost-"] {
+div[class*="participants_"] svg[class*="boost_"] {
     display: none;
 }
