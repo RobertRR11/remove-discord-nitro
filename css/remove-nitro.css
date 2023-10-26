@@ -1,5 +1,10 @@
-/* Nitro button in friends list */
+/* Nitro button in direct messages list */
 li[class*="channel_"]:has(a[href="/store"]) {
+    display: none;
+}
+
+/* Shop button in direct messages list */
+li[class*="channel_"]:has(a[href="/shop"]) {
     display: none;
 }
 
