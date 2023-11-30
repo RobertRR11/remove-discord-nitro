@@ -34,12 +34,12 @@ div[class*="channelTextArea_"] div[class*="buttons_"] > button {
 
 /* Nitro upsell for profile effects in profile customization */
 div[class*="customizationSection_"]:has(div[class*="premiumFeatureBorder_"]) {
-    display: none
+    display: none;
 }
 
-/* Nitro upsell for halloween profile effects */
-div[class*="falloweenBackgroundImage_"] {
-    display: none
+/* Winter styles shop in profile customization */
+div[class*="shopForAllWinterBackground_"] {
+    display: none;
 }
 
 /* Nitro upsell in server profile customization */
@@ -72,7 +72,7 @@ div[class*="qualitySettingsContainer_"] div[class*="upsellBanner_"] {
 
 /* Nitro button in emoji reactions while screen sharing + fix spacing due to removed button */
 #emoji-picker-tab-panel div[class*="tooltipContainer_"] {
-    display: none
+    display: none;
 }
 #emoji-picker-tab-panel div[class*="dropDownContainer_"] {
     margin-left: 0;
@@ -111,7 +111,7 @@ div#appearance-tab div[class*="premiumFeatureBorder_"] {
 
 /* App icon selection in settings */
 div[class*="selectionGroup_"]:has(div[class*="appIconSelectionContainer_"]) {
-    display: none
+    display: none;
 }
 
 /* Nitro only custom webcam backgrounds */
