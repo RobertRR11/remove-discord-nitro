@@ -138,3 +138,8 @@ div[class*="premiumFeatureBannerBackground_"] {
 div[class*="userPopoutInner_"] div[class*="containerWrapper_"] {
     display: none;
 }
+
+/* Nitro upsell when hitting the message character limit */
+div[class*="upsell_"] {
+    display: none;
+}
