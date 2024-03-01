@@ -143,3 +143,8 @@ div[class*="userPopoutInner_"] div[class*="containerWrapper_"] {
 div[class*="upsell_"] {
     display: none;
 }
+
+/* Nitro upsell when clicking on super reactions */
+div[class*="reaction_"][style*="background"] {
+	pointer-events: none;
+}
