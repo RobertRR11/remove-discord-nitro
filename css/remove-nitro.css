@@ -37,8 +37,8 @@ div[class*="customizationSection_"]:has(div[class*="premiumFeatureBorder_"]) {
     display: none;
 }
 
-/* Winter styles shop in profile customization */
-div[class*="shopForAllWinterBackground_"] {
+/* Shop styles in profile customization */
+div[class*="shopForAll"] {
     display: none;
 }
 
