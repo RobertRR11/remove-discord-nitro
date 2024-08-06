@@ -23,7 +23,7 @@ div[class*="guildIconV2Container_"], div[class*="flowerStarContainer_"] {
 }
 
 /* Boost progress on top of guild channel list */
-div[class*="sidebar_"] div[class*="scroller_"] div[class*="container_"] {
+div[data-list-item-id*="channels___boosts-"] {
     display: none;
 }
 
