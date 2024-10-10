@@ -27,6 +27,11 @@ div[class*="channelTextArea_"] div[class*="buttons_"] > button {
     display: none;
 }
 
+/* Nitro gift button in chat box as of october 2024 */
+div[class*="channelTextArea_"] div[class*="buttons_"] div[class*="container_"] {
+    display: none;
+}
+
 /* Nitro try out section in user profile customization */
 #profile-customization-tab div[class*="tryItOutSection_"] {
     display: none;
