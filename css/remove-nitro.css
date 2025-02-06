@@ -23,12 +23,7 @@ div[class*="premiumTab_"] + div[class*="item_"] + div[class*="item_"] + div[clas
 }
 
 /* Nitro gift button in chat box */
-div[class*="channelTextArea_"] div[class*="buttons_"] > button {
-    display: none;
-}
-
-/* Nitro gift button in chat box as of october 2024 */
-div[class*="channelTextArea_"] div[class*="buttons_"] div[class*="container_"] {
+div[class*="channelTextArea_"] div[class*="buttons_"] > button[class*="button_"] {
     display: none;
 }
 
