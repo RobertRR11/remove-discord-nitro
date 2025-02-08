@@ -26,6 +26,10 @@ div[class*="premiumTab_"] + div[class*="item_"] + div[class*="item_"] + div[clas
 div[class*="channelTextArea_"] div[class*="buttons_"] > button[class*="button_"] {
     display: none;
 }
+/* Gift button possibly during events/sales */
+div[class*="channelTextArea_"] div[class*="buttons_"] > div[class*="container_"] > button {
+    display: none;
+}
 
 /* Nitro try out section in user profile customization */
 #profile-customization-tab div[class*="tryItOutSection_"] {
