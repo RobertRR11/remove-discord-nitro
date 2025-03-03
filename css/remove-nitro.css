@@ -42,7 +42,12 @@ div[class*="customizationSection_"]:has(div[class*="premiumFeatureBorder_"]) {
 }
 
 /* Shop styles in profile customization */
-div[class*="shopForAll"] {
+#profile-customization-tab div[class^="container_"]:has(> button[class*="colorBrandInverted_"]) {
+    display: none;
+}
+
+/* Nitro upsell banner in profile customization */
+#profile-customization-tab div[class^="upsellContainer_"] {
     display: none;
 }
 
