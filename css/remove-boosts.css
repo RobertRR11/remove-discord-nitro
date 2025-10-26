@@ -7,7 +7,7 @@ div[class*="inviteBannerUpsell_"] {
 }
 
 /* Boost label in member list */
-div[class*="nameAndDecorators_"] > div[tabindex="-1"] {
+div[class*="nameAndDecorators_"] > span > div[tabindex="-1"] {
     display: none;
 }
 
@@ -23,12 +23,12 @@ div[class*="guildIconV2Container_"], div[class*="flowerStarContainer_"] {
 }
 
 /* Boost progress on top of guild channel list */
-div[data-list-item-id*="channels___boosts-"] {
+div[class*="containerWithMargin_"]:has(div[class*="progressContainer_"]) {
     display: none;
 }
 
 /* Boost button when clicking on role icons */
-div[class*="popoutContainer_"] > button:has(svg[class*="boosterBadge_"]) {
+div[class*="popoutContainer_"] > button:has(path[d="M11.47 6.55a.75.75 0 0 1 1.06 0l2.2 2.14c.14.14.23.34.23.55v5.52c0 .21-.09.4-.23.55l-2.2 2.14a.75.75 0 0 1-1.06 0l-2.2-2.14a.77.77 0 0 1-.23-.55V9.24c0-.21.09-.41.23-.55l2.2-2.14Z"]) {
     display: none;
 }
 
