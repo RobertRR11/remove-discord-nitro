@@ -8,6 +8,11 @@ li[class*="channel_"]:has(a[href="/shop"]) {
     display: none;
 }
 
+/* Quests button in direct messages list */
+li[class*="channel_"]:has(a[href="/quest-home"]) {
+    display: none;
+}
+
 /*
 	Payment settings
 	By vee 💢#7262 on Vencord https://discord.gg/D9uwnFnqmd
