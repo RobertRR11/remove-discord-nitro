@@ -1,0 +1,38 @@
+/* Hide nameplates */
+div[class*="nameplated_"] > div[class^="container_"] {
+	display: none;
+}
+
+/* Hide profile effects */
+div[class^="profileEffects_"] {
+	display: none;
+}
+
+/* Hide avatar decorations */
+svg[class^="avatarDecoration_"] {
+	display: none;
+}
+
+/* Hide display name styles */
+div[class^="member_"] span[class*="dnsFont_"], /* Member list */
+.user-profile-popout div[class*="dnsFont_"], /* Profile popout */
+div[class^="profileBody_"] div[class*="dnsFont_"] /* Full profile view */ {
+	font-family: inherit;
+}
+
+.user-profile-popout div[class*="dnsFont_"] > span, /* Profile popout */
+div[class^="profileBody_"] div[class*="dnsFont_"] > span /* Full profile view */ {
+	background: none !important;
+	-webkit-text-fill-color: var(--text-default) !important;
+}
+
+/* Hide profile backgrounds */
+.custom-user-profile-theme {
+	padding: 0;
+	background: var(--background-surface-high);
+	
+
+	& > div[class^="inner_"] {
+		background: none;
+	}
+}
